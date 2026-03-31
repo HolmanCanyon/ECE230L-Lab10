@@ -5,19 +5,19 @@ module JKFlipFlop (
 );
 
   initial begin 
-    Q <= 0
+    Q <= 0;
   end
   
   
   always @(posedge Clock) begin 
     if (J & K) begin 
-      Q <= ~Q
+      Q <= ~Q;
     end else begin
       if (Q) begin
-        Q <= ~K
+        Q <= ~K;
       end
       else begin
-        Q <= J
+        Q <= J;
       end
     end
   end
