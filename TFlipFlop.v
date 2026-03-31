@@ -1,7 +1,7 @@
 module TFlipFlop(
     input T,
     input Clock,
-    output reg Q
+    output reg Q,
     output NotQ
 );
 
@@ -9,9 +9,9 @@ module TFlipFlop(
         Q <= 0;
     end
 
-    always @(posedge Clock, T) begin
+    always @(posedge Clock) begin
         if (T) begin 
-            Q <= NotQ;
+            Q <= ~Q;
         end
     end
 
