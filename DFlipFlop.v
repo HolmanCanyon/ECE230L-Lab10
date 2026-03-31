@@ -1,6 +1,6 @@
 module DFlipFlop(
     input D,
-    input clock,
+    input Clock,
     output reg Q
     output NotQ
 );
@@ -9,7 +9,7 @@ module DFlipFlop(
         Q <= 0;
     end
 
-    always @(posedge clock)
+    always @(posedge Clock)
         Q <= D;
 
     assign NotQ = ~Q;
