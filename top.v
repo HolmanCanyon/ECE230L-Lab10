@@ -19,7 +19,7 @@ module top(
 
     JKFlipFlop JKFlipFlop(
         .J(sw[1]),
-        .K(sw[2])
+        .K(sw[2]),
         .Q(led[2]),
         .NotQ(led[3]),
         .Clock(btnC)
