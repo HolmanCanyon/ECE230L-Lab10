@@ -4,6 +4,10 @@ module DFlipFlop(
     output reg memory
 );
 
+    initial begin
+        memory <= 0;
+    end
+
     always @(posedge store)
         memory <= data;
 
