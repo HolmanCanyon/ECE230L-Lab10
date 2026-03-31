@@ -10,12 +10,15 @@ module jk_flipflop (
   
   
   always @(posedge Clock) begin 
-    if (Q == 0) begin
-      Q <= J
-    end
-    
-    else begin
-      Q <= ~K
+    if (J & K) begin 
+      Q <= ~Q
+    end else begin
+      if (Q) begin
+        Q <= ~K
+      end
+      else begin
+        Q <= J
+      end
     end
   end
 
