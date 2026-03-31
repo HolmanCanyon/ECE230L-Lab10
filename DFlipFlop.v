@@ -1,14 +1,16 @@
 module DFlipFlop(
-    input data,
-    input store,
-    output reg memory
+    input D,
+    input clock,
+    output reg Q
+    output NotQ
 );
 
     initial begin
-        memory <= 0;
+        Q <= 0;
     end
 
-    always @(posedge store)
-        memory <= data;
+    always @(posedge clock)
+        Q <= D;
 
+    assign NotQ = ~Q;
 endmodule
