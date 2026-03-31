@@ -10,4 +10,11 @@ module top(
         .Clock(btnC)
     );
 
+    TFlipFlop TFlipFlop(
+        .T(sw[3]),
+        .Q(led[4]),
+        .NotQ(led[5]),
+        .Clock(btnC)
+    );
+
 endmodule
