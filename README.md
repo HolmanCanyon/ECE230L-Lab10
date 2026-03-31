@@ -12,7 +12,7 @@ In this lab, you’ve learned about edge sensitive circuits and explored some of
 |Question 3|Your answers to the question|25%|
 
 ## Names
-
+Canyon Holman, Cody Toone
 ## Summary
 
 ## Lab Questions
@@ -25,7 +25,8 @@ Edge sensitive circuits only respond at the moment the clock changes
 
 ### Why is it important to declare initial state?
 
-It is imo
+Setting an initial state ensures that each circuit remains predictable and avoids any unwanted behavior
 
 ### What do edge sensitive circuits let us build?
 
+Edge sensitive circuits allow us to build precise clock circuits with memory, a foundation that all modern computing relies on
