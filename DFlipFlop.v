@@ -1,7 +1,7 @@
 module DFlipFlop(
     input D,
     input Clock,
-    output reg Q
+    output reg Q,
     output NotQ
 );
 
