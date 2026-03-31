@@ -1,6 +1,6 @@
 module jk_flipflop (
-  input J, K, Clock
-  output reg Q
+  input J, K, Clock,
+  output reg Q,
   output NotQ
 );
 
