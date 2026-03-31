@@ -14,7 +14,7 @@ In this lab, you’ve learned about edge sensitive circuits and explored some of
 ## Names
 Canyon Holman, Cody Toone
 ## Summary
-
+This lab taught us the basics of edge sensitive circuits. We learned to implement 3 different types of flip flops (D, JK, T) that all rely on edge sensitivity to function.
 ## Lab Questions
 
 ### What is difference between edge and level sensitive circuits?
