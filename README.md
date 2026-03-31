@@ -19,14 +19,14 @@ This lab taught us the basics of edge sensitive circuits. We learned to implemen
 
 ### What is difference between edge and level sensitive circuits?
 
-Level sensitive circuits will respond to any signal change as long as the clock is at a certain level
+Level sensitive circuits will respond to any signal change as long as the clock is at a certain level.
 
-Edge sensitive circuits only respond at the moment the clock changes
+Edge sensitive circuits only respond at the moment the clock changes.
 
 ### Why is it important to declare initial state?
 
-Setting an initial state ensures that each circuit remains predictable and avoids any unwanted behavior
+Setting an initial state ensures that each circuit remains predictable and avoids any unwanted behavior.
 
 ### What do edge sensitive circuits let us build?
 
-Edge sensitive circuits allow us to build precise clock circuits with memory, a foundation that all modern computing relies on
+Edge sensitive circuits allow us to build precise clock circuits with memory, a foundation that all modern computing relies on.
